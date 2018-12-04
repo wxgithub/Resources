@@ -1,0 +1,45 @@
+{
+  "fields": [
+    {
+      "name": "state",
+      "type": "CUSTOM",
+      "valueClass": "Boolean",
+      "isCollection": false,
+      "description": "LED state",
+      "tags": []
+    },
+    {
+      "name": "sensor",
+      "type": "CUSTOM",
+      "valueClass": "Integer",
+      "isCollection": false,
+      "description": "ADC sensor reading",
+      "tags": []
+    },
+    {
+      "name": "timestamp",
+      "type": "TIMESTAMP",
+      "valueClass": "Double",
+      "isCollection": false,
+      "tags": [],
+      "unit": "SI.MILLI(SI.SECOND)"
+    }
+  ],
+  "actions": [
+    {
+      "name": "setOn",
+      "description": "Set state to On",
+      "parameters": [],
+      "isStandard": true,
+      "type": "CUSTOM"
+    },
+    {
+      "name": "setOff",
+      "description": "Set state to Off",
+      "parameters": [],
+      "isStandard": true,
+      "type": "CUSTOM"
+    }
+  ],
+  "messageFormat": "json"
+}
