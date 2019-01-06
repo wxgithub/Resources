@@ -1,2 +1,2 @@
 # Resources
-Some developer relations related projects
+Sample developer relations related projects
