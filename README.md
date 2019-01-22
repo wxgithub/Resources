@@ -4,3 +4,5 @@ Sample developer relations related projects
 2. Sample tutorial and code
 3. Partner technology integration and programming guides
 4. Event demo list
+5. University Course presentation decks
+6. Research Report
